@@ -32,3 +32,6 @@ cp -r $VENDOR_MOUNT/* $VENDOR_SPARSE
 # Remove generic unused directories and files
 source helpers/remove-unused.sh
 
+# Move build.prop to proper place
+DEVICE=$(grep ro.vendor.product.name $VENDOR_SPARSE/build.prop | cut -d '_' -f2)
+mv $VENDOR_SPARSE/build.prop $DEVICE/vendor
