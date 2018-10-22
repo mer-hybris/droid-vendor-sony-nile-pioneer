@@ -34,6 +34,7 @@ rm -rf $VENDOR_SPARSE/lib/libWnnJpnDic.so
 rm -rf $VENDOR_SPARSE/lib/modules
 rm -rf $VENDOR_SPARSE/lost+found
 rm -rf $VENDOR_SPARSE/media
+rm -rf $VENDOR_SPARSE/overlay
 rm -rf $VENDOR_SPARSE/plugin
 rm -rf $VENDOR_SPARSE/priv-app
 rm -rf $VENDOR_SPARSE/recovery-from-boot.p
