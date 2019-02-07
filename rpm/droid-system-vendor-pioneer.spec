@@ -73,11 +73,16 @@ Requires(post): libcap
 [ -e /vendor/lib64/soundfx ] && chown 0:2000 /vendor/lib64/soundfx
 [ -e /vendor/overlay ] && chown 0:2000 /vendor/overlay
 [ -e /vendor/overlay/SysuiDarkTheme ] && chown 0:2000 /vendor/overlay/SysuiDarkTheme
+[ -e /vendor/priv-app ] && chown 0:2000 /vendor/priv-app
+[ -e /vendor/priv-app/TimeKeep ] && chown 0:2000 /vendor/priv-app/TimeKeep
 [ -e /vendor/rfs ] && chown 0:2000 /vendor/rfs
 [ -e /vendor/rfs/msm ] && chown 0:2000 /vendor/rfs/msm
 [ -e /vendor/rfs/msm/adsp ] && chown 0:2000 /vendor/rfs/msm/adsp
 [ -e /vendor/rfs/msm/adsp/readonly ] && chown 0:2000 /vendor/rfs/msm/adsp/readonly
 [ -e /vendor/rfs/msm/adsp/readonly/vendor ] && chown 0:2000 /vendor/rfs/msm/adsp/readonly/vendor
+[ -e /vendor/rfs/msm/cdsp ] && chown 0:2000 /vendor/rfs/msm/cdsp
+[ -e /vendor/rfs/msm/cdsp/readonly ] && chown 0:2000 /vendor/rfs/msm/cdsp/readonly
+[ -e /vendor/rfs/msm/cdsp/readonly/vendor ] && chown 0:2000 /vendor/rfs/msm/cdsp/readonly/vendor
 [ -e /vendor/rfs/msm/mpss ] && chown 0:2000 /vendor/rfs/msm/mpss
 [ -e /vendor/rfs/msm/mpss/readonly ] && chown 0:2000 /vendor/rfs/msm/mpss/readonly
 [ -e /vendor/rfs/msm/mpss/readonly/vendor ] && chown 0:2000 /vendor/rfs/msm/mpss/readonly/vendor
