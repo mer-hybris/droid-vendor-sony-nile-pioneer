@@ -43,7 +43,6 @@ Requires(post): libcap
 [ -e /vendor/bin/macaddrsetup ] && chown 0:2000 /vendor/bin/macaddrsetup
 [ -e /vendor/bin/sh ] && chown 0:2000 /vendor/bin/sh
 [ -e /vendor/bin/thermanager ] && chown 0:2000 /vendor/bin/thermanager
-[ -e /vendor/bin/timekeep ] && chown 0:2000 /vendor/bin/timekeep
 [ -e /vendor/bin/toybox_vendor ] && chown 0:2000 /vendor/bin/toybox_vendor
 [ -e /vendor/bin/vndservice ] && chown 0:2000 /vendor/bin/vndservice
 [ -e /vendor/bin/vndservicemanager ] && chown 0:2000 /vendor/bin/vndservicemanager
@@ -73,8 +72,6 @@ Requires(post): libcap
 [ -e /vendor/lib64/soundfx ] && chown 0:2000 /vendor/lib64/soundfx
 [ -e /vendor/overlay ] && chown 0:2000 /vendor/overlay
 [ -e /vendor/overlay/SysuiDarkTheme ] && chown 0:2000 /vendor/overlay/SysuiDarkTheme
-[ -e /vendor/priv-app ] && chown 0:2000 /vendor/priv-app
-[ -e /vendor/priv-app/TimeKeep ] && chown 0:2000 /vendor/priv-app/TimeKeep
 [ -e /vendor/rfs ] && chown 0:2000 /vendor/rfs
 [ -e /vendor/rfs/msm ] && chown 0:2000 /vendor/rfs/msm
 [ -e /vendor/rfs/msm/adsp ] && chown 0:2000 /vendor/rfs/msm/adsp
