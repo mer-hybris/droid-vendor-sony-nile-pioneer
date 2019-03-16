@@ -17,7 +17,7 @@ License:       Proprietary
 Requires:      droid-system-vendor-%{family}
 Source0:       %{name}-%{version}.tgz
 Source1:       droid-system-vendor-%{family}-rpmlintrc
-URL:           https://bitbucket.org/jolla/sony-nile-droid-vendor-pioneer
+URL:           https://github.com/mer-hybris/droid-vendor-sony-nile-pioneer
 
 %description
 %{summary}
